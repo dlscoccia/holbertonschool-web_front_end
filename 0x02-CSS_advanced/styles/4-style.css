@@ -18,6 +18,10 @@ body {
     font-family: var(--font-family-base);
 }
 
+.section-header {
+    font-family: var(--font-family-title);
+}
+
 a {
     color: var(--text-color);
 }
@@ -32,8 +36,4 @@ a {
 
 .section-tagline {
     color: var(--color-primary);
-}
-
-.section-header {
-    font-family: var(--font-family-title);
 }
