@@ -47,7 +47,7 @@ a {
     text-decoration: none;
 }
 
-a {
+a:link {
     color: var(--text-color);
     text-decoration: none;
 }
