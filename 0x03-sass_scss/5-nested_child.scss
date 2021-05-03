@@ -1,0 +1,10 @@
+/* Sass file that assigns margin and padding to body and p tags */
+$text: #3D3D3D;
+$red: #FF0000;
+
+body {
+    color: $text;
+ > .red {
+     color: $red;
+ }
+}
