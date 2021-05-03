@@ -1,0 +1,16 @@
+/* Sass file that assigns the text color and background to the HTML tags */
+$color: #3D3D3D;
+$background: #6D6D6D;
+
+body {
+    color: $color;
+    background-color: $background;
+}
+
+p{
+    color: $color;
+}
+
+h2 {
+    background-color: $background;
+}
