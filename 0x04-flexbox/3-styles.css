@@ -179,24 +179,28 @@
   
   /* Grid
       ============================= */
-
-    .row {
-        display: flex;
-    }
-
-  ul.row {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .col-1-3 {
-    width: 33.33%;
-  }
   
-  .col-1-2 {
-    width: 50%;
-  }
+      .row {
+        display: flex;
+      }
+
+      ul.row {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      
+      [class*='col-'] {
+        padding: 0.5rem;
+      }
+      
+      .col-1-3 {
+        width: 33.33%;
+      }
+      
+      .col-1-2 {
+        width: 50%;
+      }
   
   /* Navbar
       ============================= */
@@ -370,14 +374,15 @@
   /* Section Latest news ============================= */
   .section-latest-news .row {
     display: flex;
-  flex-direction: row-reverse;
-}
+    flex-direction: row-reverse;
+  }
 
-/* Section SERVICES ============================= */
-.section-services .row {
+  /* Section SERVICES ============================= */
+  .section-services .row {
     display: flex;
     flex-wrap: wrap;
-}
+  }
+
 
   /*** 4. CARD ***/
   
