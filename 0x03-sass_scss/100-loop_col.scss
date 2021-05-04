@@ -1,0 +1,7 @@
+/* Sass file that use for statement to create cols */
+$base-width: 100%;
+@for $i from 1 through 4 {
+    .col-#{$i} {
+      width: ($base-width / $i);
+    }
+  }
