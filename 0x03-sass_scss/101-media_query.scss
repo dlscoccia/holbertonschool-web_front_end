@@ -1,7 +1,6 @@
 /* Sass file that use if statement for media query */
 h1 {
     font-size: 20px;
-  
     @media screen and (max-width: 320px) {
       font-size: 14px;
     }
