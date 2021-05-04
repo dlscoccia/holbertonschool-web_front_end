@@ -7,8 +7,8 @@ body {
     font-size: $sm;
     h1 {
         font-size: $md;
-        .smaller {
-            font-size: $xs;
-        }
+    }
+    h1.smaller {
+        font-size: $xs;
     }
 }
