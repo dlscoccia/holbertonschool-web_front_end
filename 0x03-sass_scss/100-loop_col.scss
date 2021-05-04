@@ -1,7 +1,11 @@
 /* Sass file that use for statement to create cols */
-$base-width: 100%;
-@for $i from 1 through 4 {
-    .col-#{$i} {
-      width: ($base-width / $i);
+@function percent($base, $num) {
+        $result: $base / $num;
+    @return $result;
+}
+
+@for $i from 1 through 4{
+    col-#{$i} {
+        width: percent(100%, $i);
     }
-  }
+}
