@@ -1,0 +1,18 @@
+/* Sass file that use extend */
+%size {
+    font-size: 12px;
+}
+
+.info {
+    @extend %size;
+}
+
+.success {
+    @extend %size;
+    color: #00FF00;
+}
+
+.warning {
+    @extend %size;
+    color: #FF0000;
+}
