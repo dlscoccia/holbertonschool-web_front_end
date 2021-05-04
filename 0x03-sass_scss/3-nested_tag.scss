@@ -1,11 +1,11 @@
 /* Sass file that assigns margin and padding to body and p tags */
-$body: 0;
-$margin-p: 10px;
+$body: 0px;
+$p: 10px;
 
 body {
     margin: $body;
     padding: $body;
     p {
-        margin: $margin-p;
+        margin: $p;
     }
 }
