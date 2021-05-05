@@ -292,21 +292,21 @@
   .social-link > svg {
     fill: var(--text-color);
   }
-  
+
   /*** 3. SECTION ***/
-  
+
   /* Section (all styles)
       ============================= */
-  
+
   .section {
     padding: var(--section-padding);
   }
-  
+
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
   }
-  
+
   .section-title {
     font-size: var(--section-title-font-size);
     font-weight: var(--section-title-font-weight);
@@ -314,7 +314,7 @@
     margin: var(--section-title-margin);
     color: var(--section-title-color);
   }
-  
+
   .section-tagline {
     color: var(--section-tagline-color);
     font-family: var(--section-tagline-font-family);
@@ -322,34 +322,34 @@
     font-weight: var(--section-tagline-font-weight);
     margin: var(--section-tagline-margin);
   }
-  
+
   .section-body {
     padding: var(--section-body-padding);
   }
-  
+
   .section-footer {
     padding: var(--section-footer-padding);
     text-align: var(--section-footer-align);
   }
-  
+
   /* Section theming
       ============================= */
-  
+
   [data-section-theme="dark"] {
     --button-color: var(--color-white);
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     background-color: #010101;
   }
-  
+
   /* Section HERO
       ============================= */
-  
+
   .section-hero {
     position: relative;
     margin-top: -8.5rem;
   }
-  
+
   .hero-homepage {
     background-position: 75% 0;
     background-repeat: no-repeat;
@@ -369,7 +369,7 @@
   .section-hero .section-title {
     margin-bottom: 5rem;
   }
-  
+
   .section-hero .section-inner {
     display: flex;
     flex-direction: column;
@@ -377,7 +377,7 @@
     justify-content: center;
     min-height: 50vh;
   }
-  
+
   /* Section Latest news ============================= */
   .section-latest-news .row {
     display: flex;
@@ -397,38 +397,38 @@
 
 
   /*** 4. CARD ***/
-  
+
   /* Card (all styles)
       ============================= */
-  
+
   .card-category {
     color: var(--color-primary);
   }
-  
+
   /* Card WORK
       ============================= */
-  
+
   .card-work .card-outer {
     position: relative;
     overflow: hidden;
   }
-  
+
   .card-work:hover .card-outer {
     transform: scale(0.95);
   }
-  
+
   .card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
   }
-  
+
   .card-work:hover .card-image {
     transform: scale(1.2);
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
-  
+
   .card-work .card-inner {
     position: absolute;
     top: -0.1rem;
@@ -438,11 +438,11 @@
     z-index: 1;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
-  
+
   .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
   }
-  
+
   .card-work .card-title {
     text-align: center;
     margin: 0;
@@ -450,13 +450,13 @@
     height: 100%;
     position: relative;
   }
-  
+
   .card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
   }
-  
+
   .card-work .card-title a::after {
     position: absolute;
     top: 0;
@@ -465,24 +465,24 @@
     bottom: 0;
     content: '';
   }
-  
+
   .card-work:hover .card-title {
     opacity: 1;
   }
-  
+
   /* Card SERVICES
       ============================= */
-  
+
   .card-services .card-title {
     margin: 0;
   }
-  
+
   .card-services a {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
   }
-  
+
   .card-services a:hover {
     color: var(--color-white);
     background: var(--color-primary);
@@ -490,30 +490,30 @@
     transition-duration: 0.3s;
     transition-property: color, background-color;
   }
-  
+
   /* Card TESTIMONIAL
       ============================= */
-  
+
   .card-testimonial {
     text-align: center;
   }
-  
+
   .card-testimonial .card-avatar {
     border-radius: 50%;
     width: 10rem;
     height: 10rem;
   }
-  
+
   .card-testimonial .card-quote cite {
     display: block;
     padding-top: 1rem;
     color: var(--color-primary);
   }
-  
+
   .card-testimonial .card-quote {
     position: relative;
   }
-  
+
   .card-testimonial .card-quote::before {
     content: '\201C';
     position: absolute;
