@@ -545,7 +545,6 @@
 
     .hero-article .section-inner {
         text-align: center;
-        display: flex;
         align-items: center;
         min-height: 40vh;
     }

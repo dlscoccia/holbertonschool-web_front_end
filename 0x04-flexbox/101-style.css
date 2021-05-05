@@ -11,9 +11,9 @@ body {
 
 .box {
     display: flex;
+    justify-content: center;
     align-items: center;
     align-self: baseline;
-    justify-content: center;
     color:#e6eeee;
 }
 
