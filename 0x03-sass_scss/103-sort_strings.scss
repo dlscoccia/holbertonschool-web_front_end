@@ -1,0 +1,12 @@
+/* Sass file that sort strings */
+@import "103-sort_list";
+
+
+@each $name in $list_to_sort {
+    @each $i in $list_to_sort{
+        @if $i < $name {
+            @debug $i;
+        }
+        
+    }
+}
