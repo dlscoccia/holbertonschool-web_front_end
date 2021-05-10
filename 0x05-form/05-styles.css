@@ -749,4 +749,7 @@
     overflow: hidden;
   }
 
-  
+  .form-group:focus-within .form-help {
+    max-height: 20rem;
+    margin: 0.4rem 0 0;
+  }
