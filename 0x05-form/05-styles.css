@@ -709,3 +709,17 @@
         font-style: italic;
         font-size: var(--font-size-small);
       }
+
+      /* Form group
+============================= */
+
+  .form-group {
+    padding: 1rem;
+    margin: 0;
+    background-color: var(--color-white);
+  }
+
+  .form-group:focus-within {
+    background-color: var(--color-light-grey);
+    transition: 0.3s;
+  }
