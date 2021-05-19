@@ -533,31 +533,31 @@
     background-position: 65% 8rem;
     background-repeat: no-repeat;
     background-size: 90rem auto;
-  }
-  
-  .section-hero .section-body {
-    padding: 10rem 4rem;
+}
+
+    .section-hero .section-body {
+        padding: 10rem 4rem;
   }
   
   .section-hero .section-category {
     color: var(--color-white);
     text-transform: uppercase;
-  }
-  
-  .section-hero .section-title {
+}
+
+    .section-hero .section-title {
     margin-bottom: 5rem;
-  }
-  
-  .section-hero .section-inner {
+}
+
+    .section-hero .section-inner {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     min-height: 35vh;
-  }
+}
 
 
-  .article-page .section-hero {
+    .article-page .section-hero {
     margin-top: -8.5rem;
     padding-top: 5rem;
 }
