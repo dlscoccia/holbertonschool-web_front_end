@@ -189,6 +189,11 @@
     white-space: nowrap;
   }
   
+  .off-screen {
+    left: -100vw;
+    position: absolute;
+  }
+
   /*** 2. LAYOUT ***/
   
   /* Layout
