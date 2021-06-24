@@ -123,5 +123,22 @@ The shared lexical environment is created in the body of an anonymous function, 
 Those three public functions are closures that share the same lexical environment. Thanks to JavaScript's lexical scoping, they each have access to the privateCounter variable and the changeBy function.
 
 - **The execution stack order with JavaScript**
+
+Execution stack, also known as “calling stack” in other programming languages, is a stack with a LIFO (Last in, First out) structure, which is used to store all the execution context created during the code execution.
+When the JavaScript engine first encounters your script, it creates a global execution context and pushes it to the current execution stack. Whenever the engine finds a function invocation, it creates a new execution context for that function and pushes it to the top of the stack.
+The engine executes the function whose execution context is at the top of the stack. When this function completes, its execution stack is popped off from the stack, and the control reaches to the context below it in the current stack.
+
+
 - **How to use binding**
+
+In this component, the value of this is determined or set.
+In the global execution context, the value of this refers to the global object. (in browsers, this refers to the Window Object).
+In the function execution context, the value of this depends on how the function is called. If it is called by an object reference, then the value of this is set to that object, otherwise, the value of this is set to the global object or undefined(in strict mode).
+
 - **How to use callbacks**
+
+In JavaScript, a callback is a function passed into another function as an argument to be executed later.
+
+Where callbacks really shine are in asynchronous functions, where one function has to wait for another function (like waiting for a file to load).
+
+___
