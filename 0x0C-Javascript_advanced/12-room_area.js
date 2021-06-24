@@ -6,9 +6,5 @@ const roomDimensions = {
     }
 };
 
-const unboundGetArea = roomDimensions.getArea;
-console.log(unboundGetArea()); // The function gets invoked at the global scope
-  // expected output: undefined
-
-const boundGetArea = unboundGetArea.bind(roomDimensions);
+const boundGetArea = roomDimensions.getArea.bind(roomDimensions);
 console.log(boundGetArea());
