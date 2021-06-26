@@ -68,6 +68,27 @@ $( "#myDiv p:first" ).html( "New <strong>first</strong> paragraph!" );
 
 - ## Learn how to add a click handler on an element
 
+The click event occurs when an element is clicked.
+
+The click() method triggers the click event, or attaches a function to run when a click event occurs.
+
+### Syntax
+
+Trigger the click event for the selected elements:
+```
+$(selector).click()
+```
+Attach a function to the click event:
+```
+$(selector).click(function)
+```
+
+Example:
+```
+$("p").click(function(){
+  alert("The paragraph was clicked.");
+});
+```
 
 - ## Learn how to send GET, POST, DELETE or any type of AJAX query with jQuery
 
