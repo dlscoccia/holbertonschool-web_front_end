@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Task 7</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $(function() {
+function createSearchForm() {
+    $('body').append("<input type='text'>")
+    $('body').append("<input type='submit'>")
+    $('body').append('<ul></ul>')
+    $('input:nth-of-type(2)').click(function () {
+        const $text = $('input').val()
+        queryWikipedia($text)
+        console.log('hola')
+    })
+}
+function addNewArticle(id, title, snippet) {
+let $li = $('<li></li>')
+$li.append(`<p><span>id - </span><b>${title}</b></p>`)
+$li.append(`<p>${snippet}</p>`)
+$('ul').append($li)
+}
+function queryWikipedia(search) {
+    const url = "https://en.wikipedia.org/w/api.php"
+    $.ajax({
+            url: url + "?origin=*",
+            type: "get",
+            data: {
+            action: "query",
+            format: "json",
+            list: "search",
+            srsearch: search,
+            },
+            success: function (response) {
+            if (response.query) {
+                if (response.query.search) {
+                list = response.query.search;
+                for (let i of list) {
+                    addNewArticle(i.pageid, i.title, i.snippet);
+                }
+                }
+            }
+            },
+            error: function (xhr) {
+            alert("Unable to get data from Wikipedia");
+            },
+        })
+}
+createSearchForm()
+        });
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
