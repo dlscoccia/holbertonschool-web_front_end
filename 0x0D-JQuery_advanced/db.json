@@ -1,0 +1,64 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      },
+      {
+        "title": "Lanestompa",
+        "author": "Lani Cisneros",
+        "id": 2
+      },
+      {
+        "title": "Crookedwood",
+        "author": "Connar Seymour",
+        "id": 3
+      },
+      {
+        "title": "Wootte",
+        "author": "Tommy-Lee Gunn",
+        "id": 4
+      },
+      {
+        "title": "Batwoman",
+        "author": "Zaynab Blackmore",
+        "id": 5
+      },
+      {
+        "title": "Soot",
+        "author": "Isla Huber",
+        "id": 6
+      },
+      {
+        "title": "Tigger",
+        "author": "Alistair O'Reilly",
+        "id": 7
+      },
+      {
+        "title": "Oreo",
+        "author": "Dafydd Rollins",
+        "id": 8
+      },
+      {
+        "title": "Cinnamon",
+        "author": "Saffa Edge",
+        "id": 9
+      },
+      {
+        "title": "Raven",
+        "author": "Karla Stacey",
+        "id": 10
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
