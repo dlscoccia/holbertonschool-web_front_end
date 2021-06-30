@@ -89,8 +89,3 @@ $("p").click(function(){
   alert("The paragraph was clicked.");
 });
 ```
-
-- ## Learn how to send GET, POST, DELETE or any type of AJAX query with jQuery
-
-
-- ## Learn how to create a pagination
